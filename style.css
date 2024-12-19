@@ -13,14 +13,51 @@ header{
     justify-content: space-between;
     background-color: #1F2937;
     color: #f9faf8 ;
-    padding: 0 15px ;
+    padding: 0 60px ;
 }
 
 header a{
-    color: #f9faf8 ;
+    font-size: 18px;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
 .header-logo{
     font-size: 24px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #1F2937;
+    ;
+    color: #f9faf8 ;
+    padding: 0 60px ;
+    padding-top: 30px;
+}
+
+.hero-text h1{
+font-size: 48px;
+font-weight: 900;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.hero-image{
+padding: 15px;
+}
+
+.call-to-action-button{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 8px 40px;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    font-weight: 600;
+    
 }
