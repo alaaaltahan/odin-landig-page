@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
